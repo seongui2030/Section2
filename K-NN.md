@@ -114,26 +114,6 @@ prediction = knn.predict(X_test)
 # 5. 예측 결과 확인
 print(prediction)
 ```
-# KNN(K-최근접 이웃) 알고리즘 정리
-
-## 5. Python을 이용한 KNN 구현 코드와 의미
-
-```python
-# 1. KNN 분류 알고리즘 불러오기
-from sklearn.neighbors import KNeighborsClassifier
-
-# 2. KNN 모델 생성: 가까운 이웃 3개 사용
-knn = KNeighborsClassifier(n_neighbors=3)
-
-# 3. 기존 학습 데이터와 정답으로 모델 학습
-knn.fit(X_train, y_train)
-
-# 4. 새로운 데이터의 종류 예측
-prediction = knn.predict(X_test)
-
-# 5. 예측 결과 확인
-print(prediction)
-```
 ## 6. KNN과 K-means의 차이점
 두 알고리즘은 이름에 $K$가 들어가지만 목적과 작동 방식이 다르다.
 
