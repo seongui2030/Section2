@@ -133,7 +133,7 @@ prediction = knn.predict(X_test)
 
 # 5. 예측 결과 확인
 print(prediction)
-
+```
 ## 6. KNN과 K-means의 차이점
 두 알고리즘은 이름에 $K$가 들어가지만 목적과 작동 방식이 다르다.
 
